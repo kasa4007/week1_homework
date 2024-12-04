@@ -3,10 +3,10 @@ class Circle:
         self.radius = radius
 
     def area(self):
-        return round((self.radius**2) * 3.14, 2)
+        return round((self.radius**2) * 3.1415, 2)
 
     def perimeter(self):
-        return round(self.radius * 2 * 3.14, 2)
+        return round(self.radius * 2 * 3.1415, 2)
 
     # コードが期待通り動作するように実装
 
